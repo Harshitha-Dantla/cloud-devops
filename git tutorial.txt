@@ -1,0 +1,75 @@
+                                          
+                                               GIT 
+
+Git Hub:
+->Allows u to store git repositories
+->git is version control system 
+->bug is an unexcepted error
+
+->save the project
+->version change for these 2 we use version control
+
+->remote server is the server where we can save project and all the versions or we can revert back 
+
+->git is a version control which is famous here the practice of tracking and managing changes to software code
+
+          
+                               
+REMOTE REPOSITORY
+
+repository:- it is a project folder or package 
+--> these are created in GitHub 
+--> new->repository name->public->create 
+--> they will give some code we need to put those in comand prompt
+ 
+->The repository is used in some other server which is remote repository
+->GitHub is one example of remote repository hosting service
+->hosting is to store 
+->store others project files in your repository or server is called as remote repository hosting service
+
+->big bucket and others are used in companies 
+
+LOCAL REPOSITORY
+
+->the project in ur lapi is called local repository
+
+WORKING DIRECTORY
+ 
+GIT INIT :- initialize  // here .git is created which is hidden
+GIT STATUS :- to show the files or status 
+here if we created a file and check status we will not get we need to give all the commands again
+
+->if we want to send the files to remote repository they should first save in local repository
+--> for example we have code.py and example.txt in working directory so if we want to send them to remote directory they should be saved in local first ,for suppose if we dont have staging area when we send the files from working to local we use commit command here we cant send the single file whole files are send so we need staging area 
+
+STAGING AREA
+
+**** changes are yet to be commited 
+
+-> suppose if there are 3 files in working directory like code.py and example.txt and example1.txt we can send that the files we want like only code.py and example.txt to staging area
+
+--> here from working to staging single single file is sent and to local and remote bunch of files are sent
+
+--------> staging area to local it is git commit and from local to remote it is git push and working to staging is git add
+
+--> git commit -m "message"
+--> when  we check the git status we cant see the copied files (which are visible in working and staging only are visible)
+
+---> git push -u origin branch(master)
+
+
+BRANCHES:- 
+
+-> there is a main branch whole code is present here we will deploy or redeploy
+-> developers cant work on the same file so they create the branches
+->the manager will check and conduct a review if good they will be merged
+
+HOW TO CREAT A BRANCH
+
+->git checkout -b "copy1" (create a new branch)
+->git checkout(jump the branches)
+->git branch
+
+  CriteriaQuery<Double> cq=cb.createQuery(Double.class);
+        Root<Faculty>  root=cq.from(Faculty.class);
+
